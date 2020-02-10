@@ -1,5 +1,6 @@
-# GoBarber
+# :rocket: GoBarber
 Rocketseat bootcamp GoBarber project
+
 
 
 ## :memo: License
