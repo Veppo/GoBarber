@@ -1,16 +1,22 @@
-# :rocket: GoBarber
-Rocketseat bootcamp GoBarber project
+<h1 align="center">
+  <img alt="Fastfeet" title="Fastfeet" src=".github/GoStack_bootcamp.png" width="300px" />
+</h1>
+
+## :rocket: GoBarber
+This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp).
 
 ## :low_brightness: Technologies
 
 This project was developed with the following technologies:
 
--  [Node.js][nodejs]
--  [Bcryptjs][bcryptjs]
--  [Sequelize][sequelize]
--  [Sucrase][sucrase]
--  [Yup][yup]
--  [JWT][jwt]
+-  [Node.js][nodejs]: is a JavaScript runtime built on Chrome’s V8 JavaScript engine.
+-  [express][express]: is a web application framework for Node.js.
+-  [Bcryptjs][bcryptjs]: used to hash the password, converting it to an random string.
+-  [Sequelize][sequelize]: is an Object-Relational Mapper that makes it easy to manage a SQL database.
+-  [Sucrase][sucrase]: it allows super-fast development builds.
+-  [Yup][yup]: is a schema validator and object parser.
+-  [JWT][jwt]: is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
+-  [Multer][multer]: is a middleware for handling multipart/form-data , which is primarily used for uploading files.
 -  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][prettier]
 
 ## :information_source: How To Use
@@ -35,6 +41,7 @@ $ yarn start
 This project is under the MIT license. See the [LICENSE](https://github.com/Veppo/GoBarber/blob/master/LICENSE) for more information.
 
 [nodejs]: https://nodejs.org/
+[express]: https://expressjs.com/
 [yarn]: https://yarnpkg.com/
 [vc]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
@@ -45,3 +52,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/Vepp
 [sucrase]: https://sucrase.io/
 [yup]: https://github.com/jquense/yup
 [jwt]: https://jwt.io/
+[multer]: https://github.com/expressjs/multer
