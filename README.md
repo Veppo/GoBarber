@@ -13,10 +13,14 @@ This project was developed with the following technologies:
 -  [express][express]: is a web application framework for Node.js.
 -  [Bcryptjs][bcryptjs]: used to hash the password, converting it to an random string.
 -  [Sequelize][sequelize]: is an Object-Relational Mapper that makes it easy to manage a SQL database.
+-  [mongoose][mongoose]: is an Object Data Modeling (ODM) library for MongoDB and Node, a schema-less NoSQL document database.
 -  [Sucrase][sucrase]: it allows super-fast development builds.
 -  [Yup][yup]: is a schema validator and object parser.
 -  [JWT][jwt]: is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
 -  [Multer][multer]: is a middleware for handling multipart/form-data , which is primarily used for uploading files.
+-  [date-fns][date-fns]: is a simple toolset for manipulating JavaScript dates in a browser & Node.js.
+-  [nodemailer][nodemailer]:  is a module for Node.js applications to allow email sending.
+-  [Express-handlebars][handlebars]: used to build semantic e-mail templates effectively.
 -  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][prettier]
 
 ## :information_source: How To Use
@@ -48,8 +52,12 @@ This project is under the MIT license. See the [LICENSE](https://github.com/Vepp
 [vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [prettier]: https://prettier.io/
 [sequelize]: https://sequelize.org/
+[mongoose]: https://mongoosejs.com/docs/
 [bcryptjs]: https://www.npmjs.com/package/bcryptjs
 [sucrase]: https://sucrase.io/
 [yup]: https://github.com/jquense/yup
 [jwt]: https://jwt.io/
 [multer]: https://github.com/expressjs/multer
+[date-fns]: https://date-fns.org/
+[nodemailer]: https://nodemailer.com/about/
+[handlebars]: https://handlebarsjs.com/
