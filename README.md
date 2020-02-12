@@ -14,6 +14,7 @@ This project was developed with the following technologies:
 -  [Bcryptjs][bcryptjs]: used to hash the password, converting it to an random string.
 -  [Sequelize][sequelize]: is an Object-Relational Mapper that makes it easy to manage a SQL database.
 -  [mongoose][mongoose]: is an Object Data Modeling (ODM) library for MongoDB and Node, a schema-less NoSQL document database.
+-  [redis][redis]: is a in-memory data structure store, used as a database, cache and message broker, user for e-mail queue structure.
 -  [Sucrase][sucrase]: it allows super-fast development builds.
 -  [Yup][yup]: is a schema validator and object parser.
 -  [JWT][jwt]: is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
@@ -21,6 +22,10 @@ This project was developed with the following technologies:
 -  [date-fns][date-fns]: is a simple toolset for manipulating JavaScript dates in a browser & Node.js.
 -  [nodemailer][nodemailer]:  is a module for Node.js applications to allow email sending.
 -  [Express-handlebars][handlebars]: used to build semantic e-mail templates effectively.
+-  [sentry][sentry]: is a error monitoring tool with complete stack traces.
+-  [youch][youch]: is a error log customization tool.
+-  [dotenv][dotenv]: is the tool used to orchestrate the environment variables of a project.
+-  [bee-queue][queue]: is a simple, fast and robust job/task queue for Node.js.
 -  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][prettier]
 
 ## :information_source: How To Use
@@ -61,3 +66,8 @@ This project is under the MIT license. See the [LICENSE](https://github.com/Vepp
 [date-fns]: https://date-fns.org/
 [nodemailer]: https://nodemailer.com/about/
 [handlebars]: https://handlebarsjs.com/
+[sentry]: sentry.io
+[youch]: https://github.com/poppinss/youch
+[dotenv]: https://www.npmjs.com/package/dotenv
+[queue]: https://bee-queue.com/
+[redis]: https://redis.io/
