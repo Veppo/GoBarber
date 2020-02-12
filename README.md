@@ -14,7 +14,7 @@ This project was developed with the following technologies:
 -  [Bcryptjs][bcryptjs]: used to hash the password, converting it to an random string.
 -  [Sequelize][sequelize]: is an Object-Relational Mapper that makes it easy to manage a SQL database.
 -  [mongoose][mongoose]: is an Object Data Modeling (ODM) library for MongoDB and Node, a schema-less NoSQL document database.
--  [redis][redis]: is a in-memory data structure store, used as a database, cache and message broker, user for e-mail queue structure.
+-  [redis][redis]: is a in-memory data structure store, used as a database, cache and message broker, used for e-mail queue structure.
 -  [Sucrase][sucrase]: it allows super-fast development builds.
 -  [Yup][yup]: is a schema validator and object parser.
 -  [JWT][jwt]: is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object.
